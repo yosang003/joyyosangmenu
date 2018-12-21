@@ -1,0 +1,24 @@
+.myfooter{
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    color: #686666;
+    border-top: 1px solid #d2d0d0;
+}
+
+.myfooter >div{
+    flex: 1;
+    text-align: center;
+    width: 100%;
+}
+
+.myfooter >div a{
+    width: 100%;
+    display: inline-block;
+}

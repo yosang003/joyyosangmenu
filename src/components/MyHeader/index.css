@@ -1,0 +1,12 @@
+.my-header{
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-size: 1.8rem;
+    /*padding-top: 20;*/
+    line-height: 50px;
+    background-color: deepskyblue;
+    position: fixed;
+    z-index:999;
+}

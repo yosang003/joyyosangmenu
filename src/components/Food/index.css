@@ -1,0 +1,47 @@
+img.food-img {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.food-name {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 6px;
+}
+
+.food-message {
+    height: 80px;
+    margin-left: 70px;
+    color: #333;
+}
+.food-info {
+    height: 15px;
+    line-height: 15px;
+}
+.food-description {
+    float: left;
+    font-size: 1.2rem;
+}
+
+.food-author {
+    color: deepskyblue;
+    float: right;
+    font-size: 1.6rem;
+}
+
+.food-times {
+    font-size: 1rem;
+    color: #888;
+}
+
+.food-info:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.food-add{
+    float: right;
+}

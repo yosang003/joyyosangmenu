@@ -1,0 +1,31 @@
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.food-list {
+
+}
+.food-list li{
+    width: 100%;
+    padding: 14px;
+    border-bottom: solid 1px #d2d0d0;
+}
+
+
+
+/*@media screen and (min-width: 768px) and (max-width: 992px){*/
+    /*.food-list li{*/
+        /*width: 50%;*/
+        /*padding: 2rem;*/
+    /*}*/
+
+/*}*/
+
+/*@media screen and (min-width: 992px){*/
+    /*.food-list li{*/
+        /*width: 25%;*/
+        /*padding: 2rem;*/
+    /*}*/
+
+/*}*/
